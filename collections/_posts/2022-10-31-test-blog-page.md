@@ -2,7 +2,7 @@
 layout: post
 title: "First post"
 date: 2022-10-31T09:49:03Z
-authors: [""]
+authors: ["Vijay"]
 categories: ["Test"]
 description: Test description
 thumbnail: "/assets/images/gen/blog/blog-1-thumbnail.webp"

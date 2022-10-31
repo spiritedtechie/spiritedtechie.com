@@ -1,12 +1,12 @@
 ---
 layout: home
 permalink: "/"
-title: "Hello I'm <a href='/contact'>Robert</a>, a creative <strong>designer</strong> and <em>coder</em>."
-description: "I create beautiful premium themes for Jekyll and the Jamstack 🔨✨"
-image: "/assets/images/homepage.png"
+title: "Hello! I'm <a href='/contact'>Vijay</a>, a <em>technical and engineering leader</em>."
+description: "I help organisations solve technology problems with particular interest in <strong>effective teams</strong>, <strong>strategy</strong> and <strong>architecture</strong>."
+image: "/assets/images/homepage.jpg"
 
-meta_description: "Jekyll Origin is a premium Jekyll blog theme"
-meta_title: Jekyll Origin
+meta_description: "Engineering Blog of Vijay Patel (Spirited Techie) - Problem Soving, Teams, Strategy, Architecture, Systems"
+meta_title: Spirited Techie Writes
 
 posts:
   heading: "Latest Posts"
