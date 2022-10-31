@@ -1,6 +1,6 @@
 ---
 layout: default
-body_classes: page-blog
+body_classes: page-blog page-blog-2
 ---
 
 <div class="section">
@@ -8,9 +8,9 @@ body_classes: page-blog
     <div class="row">
       <div class="col-12">
         {% include framework/blocks/sections/title.html
-        title=page.title
-        description=page.description
-        image=page.image
+          title=page.title
+          description=page.description
+          image=page.image
         %}
       </div>
     </div>
@@ -32,7 +32,7 @@ body_classes: page-blog
               {% endif %}
 
               {% for post in posts %}
-                <div class="col-12 col-lg-4 mb-3">
+                <div class="col-12 col-lg-9 mb-5">
                   {% include theme/cards/card-post.html
                     date=post.date
                     title=post.title
@@ -42,6 +42,7 @@ body_classes: page-blog
                     authors=post.authors
                     categories=post.categories
                     show_read_more=false
+                    style="row"
                   %}
                 </div>
               {% endfor %}
@@ -57,4 +58,5 @@ body_classes: page-blog
       {% endif %}
   </div>
 </div>
+
 
