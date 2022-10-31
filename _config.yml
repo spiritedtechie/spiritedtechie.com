@@ -77,10 +77,10 @@ analytics:
   google_analytics_id: ""
 
 disqus:
-  shortname: "zerostatic" # Your disqus shortcode. leave this blank to disable comments globally
+  shortname: "" # Your disqus shortcode. leave this blank to disable comments globally
 
 mailchimp:
-  form_action_url: https://zerostatic.us13.list-manage.com/subscribe/post?u=675276692aebec1c007f8156d&amp;id=3e3da720c2
+  form_action_url: 
 
 contact_form: 
   use_netlify_form: true
@@ -124,8 +124,8 @@ fonts:
   logo: "Open Sans"
 
 logo:
-  logo_text: "Jekyll Origin"
   logo_image: assets/images/logo/logo.png
+  logo_text: ""
   logo_image_mobile: assets/images/logo/logo-mobile.png
   logo_image_invert: assets/images/logo/logo-invert.png
   logo_image_invert_mobile: assets/images/logo/logo-invert-mobile.png
