@@ -27,10 +27,3 @@ main:
   - name: Contact
     url: /contact/
     weight: 4
-bottom:
-  - name: Privacy Policy
-    url: /privacy-policy/
-    weight: 3
-  - name: Terms and Conditions
-    url: /terms-and-conditions/
-    weight: 4
