@@ -74,7 +74,6 @@ The key question to ask is:
 
 > What action(s) could we take to massively improve towards good health?
 
-
 # Conclusion
 
 There is no doubt these indicators and measures are fluffy - subjective and qualitative. They are not quantitative KPI measures, just a gut feeling from participants. 
