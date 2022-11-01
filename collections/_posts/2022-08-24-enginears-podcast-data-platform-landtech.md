@@ -3,10 +3,10 @@ layout: post
 title: "Data Platform For Scaling Datasets"
 date: 2022-08-24T09:49:03Z
 authors: ["Vijay"]
-categories: ["Data engineering"]
+categories: ["Data Engineering"]
 description: "Chatting on Enginears Podcast about scaling thousands of datasets at LandTech"
 thumbnail: "/assets/images/gen/blog/enginears-podcast-thumbnail.png"
-image: 
+image:
 comments: true
 ---
 In the past 12 months, I have been helping my team build a data platform that will enable LandTech to scale integration of thousands of geospatial and land datasets, across UK and international markets. Spoke on the Enginears Podcast about it recently.
