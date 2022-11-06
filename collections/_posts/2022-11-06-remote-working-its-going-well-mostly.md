@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Remote Working - It's Going Well (Mostly)"
-date: 2022-11-07T09:00:00Z
+date: 2022-11-06T21:48:00Z
 authors: ["Vijay"]
 categories: ["Remote Working"]
 description: "How remote working as the \"new normal\" affected my life"
