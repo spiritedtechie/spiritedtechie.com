@@ -5,8 +5,8 @@ date: 2022-11-106T19:49:03Z
 authors: ["Vijay"]
 categories: ["Communication", "Writing"]
 description: "A perspective on writing and making it work for you and others"
-thumbnail:
-image: 
+thumbnail: "/assets/images/gen/blog/pen-paper-writing.jpg"
+image: "/assets/images/gen/blog/pen-paper-writing.jpg"
 comments: true
 ---
 
