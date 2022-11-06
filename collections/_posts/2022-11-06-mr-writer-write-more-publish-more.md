@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mr Writer, Why Don't You Tell It Like It Is?"
-date: 2022-11-106T19:49:03Z
+date: 2022-11-06T20:00:00Z
 authors: ["Vijay"]
 categories: ["Communication", "Writing"]
 description: "A perspective on writing and making it work for you and others"
