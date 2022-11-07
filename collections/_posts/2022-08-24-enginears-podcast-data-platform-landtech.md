@@ -9,8 +9,8 @@ thumbnail: "/assets/images/gen/blog/enginears-podcast-thumbnail.png"
 image:
 comments: true
 ---
-In the past 12 months, my team have been building a data platform that enables LandTech to scale integration of thousands of geospatial and land datasets, across UK and international markets. Spoke on the Enginears Podcast about it recently.
+In the past 12 months, my team have been building a data platform that enables LandTech to scale integration of thousands of geospatial and land datasets, across the UK and international markets. Spoke on the Enginears Podcast about it recently.
 
-[Enginears](https://enginears.io/) are an amazing team sharing how various tech companies are building their infrastructure and architecures. I was impressed by Elliot's boundless curiousity whilst helping draw out the interesting things we are doing. Well worth connecting with them!
+[Enginears](https://enginears.io/) are an amazing team sharing how various tech companies are building their infrastructure and architectures. I was impressed by Elliot's boundless curiosity whilst helping draw out the interesting things we are doing. Well worth connecting with them!
 
 <iframe src="https://www.youtube.com/embed/OBLqKLrCUmA" frameborder="0" allowfullscreen></iframe>
