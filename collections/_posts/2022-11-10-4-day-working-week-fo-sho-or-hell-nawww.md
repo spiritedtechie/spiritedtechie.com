@@ -59,7 +59,7 @@ Of course, and that is why we should be dubious about silver-bullet solutions fo
 
 ### What other problems does this solve?
 
-Aside from individual well-being and corporate productivity, there are claims of other societal benefits e.g. lower carbon footprint, and removing workplace barriers. I recommend keeping a critical eye - distant effects are difficult to predict in complex (and untested) social systems but easy to theorise (and use in motivating sales pitches!). Some things, though, are well-validated in scientific literature such as the effects of well-being. Critical thinking is needed to get through the noise and find what a 4-day working week is likely to solve and what things are possible side effects. At least until data is available that proves once theoretical causal effects.
+Aside from individual well-being and corporate productivity, there are claims of other societal benefits e.g. lower carbon footprint, and removing workplace barriers. I recommend keeping a critical eye - distant effects are difficult to predict in complex (and untested) social systems but easy to theorise (and use in motivating sales pitches!). Some things, though, are well-validated in scientific literature such as the effects of well-being. Critical thinking is needed to get through the noise and find what a 4-day working week is likely to solve and what things are possible side effects. At least until data is available that proves once-theoretical causal effects.
 
 ### How universal can this be?
 
