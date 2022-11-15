@@ -37,7 +37,7 @@ I love that this is being run as a trial globally and in different kinds of comp
 
 ### How does output stay the same or improve?
 
-I imagine it works directly by forcing organisations to find productivity gains previously left unattended; for example, automating more, removing waste, and simplification. But do all companies have such gaps to compensate for the fewer hours worked? - I am not so sure. Also, companies could take more focused, calculated commercial choices to maintain or increase output. Logically, there could be an indirect impact with greater individual well-being contributing to productivity boosts at work.
+I imagine it works directly by forcing organisations to find productivity gains previously left unattended; for example, automating more, removing waste, and simplification. But do all companies have such gaps to compensate for the fewer hours worked? - I am not so sure. Also, companies could take more focused, calculated commercial choices to maintain or increase output. Logically, there could be an indirect impact with greater individual well-being contributing to productivity boosts at work. Another possible effect could be [increased consumerism](https://www.youtube.com/watch?v=hD784CHYhGM) if people have more free time and spare cash to spend.
 
 ### Wait, hang on a minute…?
 
