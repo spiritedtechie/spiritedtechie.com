@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Four-day working week - fo sho or hell nawww?"
+title: "Four-day Working Week - Fo Sho Or Hell Nawww?"
 date: 2022-11-10T12:00:00Z
 authors: ["Vijay"]
 categories: ["Flexible Working"]

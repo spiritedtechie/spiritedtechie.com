@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "First, blame the system"
+title: "First, Blame The System"
 date: 2022-11-15T10:00:00Z
 authors: ["Vijay"]
 categories: ["Team", "Culture"]
