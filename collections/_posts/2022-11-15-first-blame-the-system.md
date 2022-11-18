@@ -3,7 +3,7 @@ layout: post
 title: "First, Blame The System; Then, Change It"
 date: 2022-11-15T10:00:00Z
 authors: ["Vijay"]
-categories: ["Team", "Culture"]
+categories: ["Team", "Culture", "Systems Thinking"]
 description: "Create safe environments to <em>experiment</em>, and banish individual <em>failure</em>"
 thumbnail: "/assets/images/gen/blog/hammer-cog-iStock-1181830416.jpg"
 image: "/assets/images/gen/blog/hammer-cog-iStock-1181830416.jpg"

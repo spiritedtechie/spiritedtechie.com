@@ -3,7 +3,7 @@ layout: post
 title: "Four-day Working Week - Fo Sho Or Hell Nawww?"
 date: 2022-11-10T12:00:00Z
 authors: ["Vijay"]
-categories: ["Flexible Working"]
+categories: ["Flexible Working", '4 Day Week']
 description: "Forming perspective on a 4-day work week as the hype continues to grow"
 thumbnail: "/assets/images/gen/blog/4-day-week-iStock-1434984631.jpg"
 image: "/assets/images/gen/blog/4-day-week-iStock-1434984631.jpg"

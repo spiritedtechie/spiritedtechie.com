@@ -3,7 +3,7 @@ layout: post
 title: "Data Platform For Scaling Datasets"
 date: 2022-08-24T09:49:03Z
 authors: ["Vijay"]
-categories: ["Data Engineering"]
+categories: ["Data Engineering", "Podcasts"]
 description: "Chatting on the Enginears Podcast about scaling to thousands of datasets at LandTech"
 thumbnail: "/assets/images/gen/blog/enginears-podcast-thumbnail.png"
 image:
