@@ -37,7 +37,7 @@ I love that this is being run as a trial globally and in different kinds of comp
 
 ## How does output stay the same or improve?
 
-I imagine it could force organisations to find productivity gains previously left unattended; for example, automating more, removing waste, and simplification. Also, companies could take more focused, calculated commercial choices to maintain or increase output. There could be an indirect impact with greater individual well-being contributing to productivity boosts at work. Another possible effect could be [increased consumption](https://www.youtube.com/watch?v=hD784CHYhGM) if people have the time and cash to do so.
+I imagine it could force organisations to find productivity gains previously left unattended; for example, automating more, removing waste, and simplification. Also, companies could take more focused, calculated commercial choices to maintain or increase output. There could be an indirect impact with greater individual well-being contributing to productivity boosts at work. Another possible effect on the demand side could be [increased consumption](https://www.youtube.com/watch?v=hD784CHYhGM) if people have the time and cash to do so.
 
 ## Wait, hang on a minute…?
 
