@@ -9,9 +9,9 @@ thumbnail: "/assets/images/gen/blog/green-amber-red-faces.png"
 image: "/assets/images/gen/blog/balloons-faces.jpeg"
 comments: true
 ---
-Health checking is a simple way to gauge the heartbeat of a team. Continuously capture the holistic view of a team by incorporating dimensions covering multiple facets of its makeup.
+Health checking is a simple way to gauge the heartbeat of a team. It works by continuously capturing the holistic view of a team by incorporating dimensions covering multiple facets of its makeup.
 
-I was keen to try health-checking with my team at Landtech over a few quarters. This was a facilitated process to identify problem areas and form an action plan towards good health.
+I was keen to try health-checking with my team over a few quarters. This was a facilitated process to identify problem areas and form an action plan towards good health.
 
 
 ## Results
@@ -75,7 +75,6 @@ The key question to ask is:
 > What action(s) could we take to make big steps towards good health?
 
 ## Conclusion
-
 There is no doubt these indicators and measures are fluffy - subjective and qualitative. They are not quantitative KPI measures, just a gut feeling from participants. 
 
 Whilst quantitative metrics can be useful, the primary aims of this simpler approach are:
@@ -86,7 +85,7 @@ Whilst quantitative metrics can be useful, the primary aims of this simpler appr
 4. Kick-start **deeper conversations** for more insightful analysis.
 5. **Easily digestible information** e.g. areas of focus, what to celebrate.
 
-In other words, a simple, approachable team health check serves as a gap analysis and the first point of call for people to organise around solving team-level problems. Solving these problems can often have multiplying effects; thus, engaging as many people to help creates real leverage for big change.
+In other words, a simple, approachable team health check serves to identify areas of improvement and is the first point of call to then dive into solving specific problem areas. Solving these problems can often have multiplying effects; thus, engaging as many people as possible creates real leverage for big change within the team.
 
 ---
 *To note, we improved **Team Fun** by incorporating online socials to play games, adding informal icebreakers to the day, and a face-to-face social throwing axes! For **Codebase Health**, we identified problem areas and dedicated a tech debt iteration to solve key problems. For **Distributed Working**, we created async comms guidelines, introduced more rotation and breaks during pair programming, and formed guidelines for elaborating work.*
