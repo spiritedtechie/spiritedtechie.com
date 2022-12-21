@@ -1,9 +1,9 @@
 ---
 layout: home
 permalink: "/"
-title: "Hello! I'm <a href='/contact'>Vijay</a>, a <em>technical and engineering leader</em>."
+title: "Hello! I'm <a href='/contact'>Vijay</a>, an <em>engineering & technical leader</em>."
 description: "I am strategic, adaptable and collaborative.<br/><br/>
-I help engineering teams to deliver value using:<br/> 
+I help engineering teams deliver value with:<br/> 
 <br/><strong>Coaching & mentorship</strong>
 <br/><strong>Continuous delivery</strong>
 <br/><strong>Technical strategy & architecture</strong>"
