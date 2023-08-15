@@ -1,15 +1,25 @@
 ---
 layout: home
 permalink: "/"
-title: "Hello! I'm <a href='/contact'>Vijay</a>, an <em>engineering & technical leader</em>."
-description: "I am strategic, adaptable and collaborative.<br/><br/>
-I help engineering teams deliver value with:<br/> 
-<br/><strong>Coaching & mentorship</strong>
-<br/><strong>Continuous delivery</strong>
-<br/><strong>Technical strategy & architecture</strong>"
+title: "Hello! I'm <a href='/contact'>Vijay</a>, a technical lead"
+description: "
+<p>Welcome to my blog &#128075; &#x1F44B;</p>
+<p>I write about:</p>
+<ul>
+  <li>Data platforms</li>
+  <li>Data quality</li>
+  <li>Data analytics</li>
+  <li>Artificial intelligence</li>
+  <li>Architecture</li>
+  <li>Teams & culture</li>
+  <li>Leadership</li>
+</ul>
+
+<p>I am based in the UK, West Midlands.</p>"
+
 image: "/assets/images/homepage.jpg"
 
-meta_description: "Engineering Blog of Vijay Patel (Spirited Techie) - Problem Solving, Teams, Strategy, Architecture, Systems"
+meta_description: "Professional Blog of Vijay Patel (Spirited Techie) - Technical Leadership, Data Engineering, Data Platforms, Tech & Data Architecture, Effective Teams"
 meta_title: Spirited Techie Writes
 
 posts:
