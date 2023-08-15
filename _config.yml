@@ -147,7 +147,7 @@ header:
   fixed: false
 
 bottom:
-  enable_bottom: false # show/hide the entire bottom (below the footer)
-  copyright_text: "© 2022 Spirited Techie"
+  enable_bottom: true # show/hide the entire bottom (below the footer)
+  copyright_text: "© 2023 Spirited Techie"
 
 

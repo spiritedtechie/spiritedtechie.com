@@ -31,7 +31,9 @@
   {{ content }}
 </div>
 
+{% if site.bottom.enable_bottom %}
 {% include framework/global/footer/bottom.html %}
+{% endif %}
 
 <script type="text/javascript" src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
 {% if site.header.fixed %}
