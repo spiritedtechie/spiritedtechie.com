@@ -83,11 +83,6 @@ disqus:
 mailchimp:
   form_action_url: 
 
-contact_form: 
-  use_netlify_form: true
-  use_formspree_form: false
-  formspree_endpoint: https://formspree.io/f/moqyklqv
-
 darkmode:
   enable_dark_mode: true
   show_dark_mode_toggle_in_header: false 

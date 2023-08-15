@@ -21,20 +21,8 @@ body_classes: page-contact
   <div class="container">
     <div class="row justify-content-start">
       <div class="col-12 col-lg-8">
-        {% if site.contact_form.use_netlify_form %}
-          {% include framework/global/forms/netlify/form-contact-netlify.html %}
-        {% elsif site.contact_form.use_formspree_form and site.contact_form.formspree_endpoint %}
-          {% include framework/global/forms/netlify/form-contact-formspree.html %}
-        {% endif %}
+        {% include framework/global/forms/smartforms/form-contact-smartform.html %}
       </div>
-      {% if site.data.contact %}
-        <div class="col-12 col-lg-4">
-          <div class="sidebar">
-            <h5>Contact Info</h5>
-            {% include framework/blocks/components/contact.html %}
-          </div>
-        </div>
-      {% endif %}
     </div>
   </div>
 </div>
