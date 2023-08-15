@@ -118,11 +118,11 @@ colors:
   logo_text_dark: "#F4F4F5"
 
 fonts:
-  google_fonts: "https://fonts.googleapis.com/css2?family=Fira+Mono&family=Merriweather:wght@300;400;700&family=Open+Sans:wght@300;400;500;600;700&display=swap"
-  heading: "Merriweather"
-  base: "Open Sans"
-  monospace: "Fira Mono"
-  logo: "Open Sans"
+  google_fonts: "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans:wght@300;400;500;600;700&display=swap"
+  heading: "Lato"
+  base: "Lato"
+  monospace: "Lato"
+  logo: "Lato"
 
 logo:
   logo_image: assets/images/logo/logo.png
