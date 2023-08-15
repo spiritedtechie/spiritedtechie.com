@@ -1,3 +1,5 @@
+@use 'sass:math';
+
 .title {
   position: relative;
   background-size: cover;
@@ -90,7 +92,7 @@
   }
   .title-cols {
     display: flex;
-    gap: $grid-gutter-width / 2;
+    gap: math.div($grid-gutter-width, 2);
     flex-direction: column;
     @include media-breakpoint-up(md) {
       gap: $grid-gutter-width;

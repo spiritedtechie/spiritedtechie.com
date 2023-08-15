@@ -1,7 +1,9 @@
+@use 'sass:math';
+
 .bottom {
   background-color: var(--color-bottom-bg);
-  padding-top: $section-gutter / 2;
-  padding-bottom: $section-gutter / 2;
+  padding-top: math.div($section-gutter, 2);
+  padding-bottom: math.div($section-gutter, 2);
   font-size: 12px;
   .copyright {
     padding: 3px 0;
