@@ -21,8 +21,8 @@ I don't believe anyone wants to be in this position of having mountains of data 
 
 Examples of data debt:
 
-* **Lack of meaning** - contextual knowledge, semantics, relationships & shared language.
-* **Siloed meaning** - duplicated or different semantics across roles or departments
+* **Lack of semantics** - contextual knowledge, relationships, metrics & shared language
+* **Siloed semantics** - duplicated or diverging across different roles, departments & tools
 * **Low data testing** - no contracts defined or enforced, so low-quality data slips through to downstream consumers
 
 These problems require humans to understand the data deeply and are usually domain-centric. It requires collaborative, cross-functional agreement and governance. The further upstream this is applied, the better.
