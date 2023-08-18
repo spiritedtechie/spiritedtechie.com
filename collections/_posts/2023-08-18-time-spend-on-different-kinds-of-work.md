@@ -1,57 +1,58 @@
 ---
 layout: post
-title: "Time allocated on different kinds of work"
+title: "Different kinds of work"
 date: 2023-08-18T12:00:00Z
 authors: ["Vijay"]
-categories: ["Teams", "Culture"]
-description: "Be clear about the complex, disruptive and repeatable work"
+categories: ["Teams", "Culture", "Innovation", "Disruption"]
+description: "Be clear about the complex, disruptive and simple work"
 thumbnail: "/assets/images/gen/blog/time-allocation-complex-innovation-disruption.jpg"
 image: "/assets/images/gen/blog/time-allocation-complex-innovation-disruption.jpg"
 comments: true
 ---
-Here is my default motto for broad-level time spent on different kinds of work: **80% on complex. 20% on disruptive**. That's it. 
+Here is my default motto for time spent on different kinds of work: **80% on complex and 20% on disruptive**.
 
-Yes, there is a difference - the complex space is (or should be) inherently innovative, whilst disruptive work is more inventive. More below.
+The complex space involves continuous innovation, while the disruptive space is focused on bleeding-edge invention.
 
-The percentages are a personal choice shaped by context and experience. Proportions vary for different people and organisations; nevertheless, the nature of the problem changes in each space.
+## 80-90% on the complex:
+* Goal is more clear
+* Problems are complex
+* Iterative innovation on solutions
+* Context matters for decisions
+* Pivot less often
+* Things are productised & scaled
+* It may be considered “boring”
 
-## 80-90% on complex stuff:
-- Goal is clearer
-- Problems are complex
-- Iterative innovation for solutions
-- Context matters in decisions
-- Things are productised & scaled
-- Some may consider it "boring"
+## 10-20% on the disruptive:
+* Goal and problem is less clear
+* Understanding potential
+* Discover goals, problems & products
+* Solutions can be fringe and inventive
+* Move fast and pivot often
+* Critical thinking matters even more
+* Identify practical opportunities
+* Understand limitations
+* MAY generate something actionable
+* Higher chance of failure
 
-## 10-20% on disruptive stuff:
-- Goal and problem is less clear
-- Understanding potential
-- Discover goals, problems & products
-- Solutions are fringe and inventive
-- Move fast and experiment
-- Critical thinking matters even more
-- Identify practical opportunities
-- Understand limitations
-- MAY generate something actionable
-- High chance of failure
+## 0% on the simple:
+* Low complexity
+* Well-understood
+* Best practice
+* Repeatable without context
+* Run the playbook
+* Can be automated
+* Soul-crushing (to me, at least)
 
-## 0% on simple stuff:
-- Low complexity
-- Well-understood
-- Best practice
-- Repeatable without context
-- Run the playbook
-- Can (and should) be automated
-- Soul-crushing (to me, at least)
+The percentages are a personal preference shaped by context and experience. Proportions vary for different people and organisations; nevertheless, the nature of problems changes in each space.
 
-In the past, I have seen innovation reduced to a small percentage of the time, say 20%. That's not right for me, as I prefer continually innovating in the 80% space. The 20% space is the land of game-changing invention, from which only a few outputs become actionable innovations. 
+In the past, I have seen organisations reduce all innovation or disruption to a small percentage of the time. I instead advocate for continuous innovation. Any dedicated time is reserved for game-changing disruptive projects.
 
-For example, it's wasteful (and potentially dangerous) to spend 20% incorporating that library or framework to solve an immediate problem. That kind of innovation is part and parcel of the 80% allocation.
+An example might help explain the difference. Integrating a new framework to solve an immediate problem could be considered an innovation - it is practical and implementable. Contrast this with cutting-edge research in the latest AI techniques - this is disruptive, and the challenge is to identify scalable products, solutions and practical ways forward. This is experimental to the extreme.
 
-It's a sign of a cultural problem if an organisation pushes innovation to only a fraction of the time (or completely eliminates any time for innovation or disruption). This could quickly bite if competitors are doing the opposite. Similarly, if organisations expect innovation outside of work hours. 
+Some organisations limit innovation and/or disruption to only a fraction of the time (or remove the time altogether). Organisations could suffer consequences if their competitors do the opposite and reap the rewards.
 
-The opposite is true also - 80% spent in the disruptive space, with nothing being built and productised. Perhaps it's necessary if your product success relies on pivoting fast and staying ahead. But what are the constraints of the product in such a disruptive space? There will be some whether you want it or not!
+What about the opposite - 80% spent in the disruptive space, with nothing being productised and scaled. Perhaps this is necessary initially to pivot fast and stay ahead. However, eventually, a product needs to be defined, built and scaled. Constraints need to be identified for early-stage products in such a disruptive space - there will be some whether you want it or not! Constant change whilst trying to scale every opportunity is futile - data, critical thinking and strategy are required to make the right bets and move toward practicality.
 
-Is it an anti-pattern to have dedicated roles or teams for disruption or innovation - would everyone else get bored and resentful quickly? I believe the people best placed to generate innovations are closest to the problem, the practicality and the long-term impact. But it does require a shift in mindset as you move to a more disruptive space.
+Is it an anti-pattern to have dedicated roles or teams for disruption or innovation - would everyone else get bored and resentful quickly? Those best placed to evaluate innovations are closest to the execution and ops - their buy-in is critical. However, it does require a shift in mindset towards a more disruptive way of thinking.
 
-Would be keen to know how you make this work in your teams and organisations. Do you define spaces of work and ways of thinking about things in those spaces? Are you making progress in each of your high-impact spaces?
+Would be keen to know how you make this work in your teams and organisations.
