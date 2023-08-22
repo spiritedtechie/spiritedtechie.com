@@ -164,7 +164,7 @@ I could then load this to a database, or prompt a large language model for some 
 1. Code manually and then use an LLM to optimise it
 2. Use the LLM to write and optimise the code
 
-My instinct was an LLM would struggle with path 2, but I was very wrong. I tested both paths to capture some differences.
+My instinct was an LLM would struggle with path 2, but I was very wrong. I tested both paths to capture observations.
 
 # Results
 Overall, the LLM could generate new or optimise existing code with minimal need for changes once integrated into the codebase.
@@ -177,12 +177,12 @@ Overall, the LLM could generate new or optimise existing code with minimal need 
 I overengineered some things: separating parts into functions and not encapsulating the abstraction properly. I also favoured a more compositional approach to functions, which was overkill. I could have refactored my code to collapse complexity - but this would have added time (let's say another 5 minutes).
 
 **Before**: 
-[Source code link - manually written](https://github.com/spiritedtechie/weather-sage/blob/pre-llm-optimisation/api/transform/transform_forecast_data.py)
+[Source code link - manually written](https://github.com/spiritedtechie/weather-sage/blob/pre-llm-optimisation/api/transform/transform_forecast_data.py){:target="_blank"}
 
 **After**: 
-[Source code link - LLM optimised](https://github.com/spiritedtechie/weather-sage/blob/02b0172d93690d3a7d8049483f4548a4a0f86cad/api/transform/transform_forecast_data.py#L48C37-L48C37)
+[Source code link - LLM optimised](https://github.com/spiritedtechie/weather-sage/blob/02b0172d93690d3a7d8049483f4548a4a0f86cad/api/transform/transform_forecast_data.py#L48C37-L48C37){:target="_blank"}
 
-A few design-level issues remain since the LLM only optimised each function.
+A few design-level issues remain since the LLM only optimised each function individually.
 
 {% highlight python %}
 def driver():
@@ -256,7 +256,7 @@ def _is_datetime_within_3_hours_from(
 
 The result was usable with only two minor tweaks to resolve some bugs. More importantly, the LLM did not over-engineer or overthink the task. It produced a single function that balanced readable code and performance.
  
-[Source code link - LLM generated](https://github.com/spiritedtechie/weather-sage/blob/llm-generated/api/transform/transform_forecast_data.py)
+[Source code link - LLM generated](https://github.com/spiritedtechie/weather-sage/blob/llm-generated/api/transform/transform_forecast_data.py){:target="_blank"}
 
 {% highlight python %}
 import csv
