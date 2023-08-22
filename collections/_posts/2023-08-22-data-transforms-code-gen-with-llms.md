@@ -308,7 +308,7 @@ Overall, I am impressed with the LLM copilot for helping me with my data transfo
 
 Copiloting is much easier if you have written code before - it's a  much faster feedback loop as you scan the returned code for each iteration and decide on the next prompt.
 
-I've always been a fan of pair programming, yet copilot replaces the learning aspect and smaller-scoped optimisations. Pair programming becomes reserved for broader concerns like contextual understanding, solution design and final review.
+I've always been a fan of pair programming, yet copilot replaces the knowledge transfer and smaller-scoped, code-level problem-solving traditionally performed during pair programming. Pair programming morphs into collaborations focused on contextual understanding, higher-level problem-solving, gathering domain expertise, solution design, strategic decisions and quality review.
 
 Code can be subjective: LLM-generated code might spark debate over coding styles and what constitutes maintainability. In the previous examples, the LLM created code that utilised Python generators - a Pythonic approach - some will disagree that this is the most readable form. Production codebases should continue to be team-reviewed and alignment reached so that teams can support LLM-generated code.
 
