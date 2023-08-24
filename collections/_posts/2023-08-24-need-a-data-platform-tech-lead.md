@@ -42,7 +42,7 @@ In terms of contributing to data platforms, here's where my expertise comes into
 - **Data Transformation:** I enjoy identifying opportunities for abstraction and reusing transformation logic. I'm also skilled in crafting tools that empower less technical users to undertake transformations.
 - **Data Lake/Warehouse:** My proficiency covers planning and constructing scalable data warehouses or data lakes. I can determine optimal data structures, and formats, and configure role-based access patterns.
 - **Semantic Layer:** I possess the capability to develop or integrate tools for defining business metrics from centralised data. Moreover, I can establish shared models for organisation-wide metric definitions.
-Infrastructure: Each of these components requires robust infrastructure. I can manage and maintain this infrastructure, ensuring it meets SLAs.
+- **Infrastructure:** Each of these components requires robust infrastructure. I can manage and maintain this infrastructure, ensuring it meets SLAs.
 
 ## Unique Contributions and Attributes
 
@@ -61,9 +61,10 @@ Let me provide an example from my tenure at LandTech. Here, I spearheaded the de
 - **Architectural Vision:** I led efforts to shape a robust architectural vision, harmonising the efforts of three engineering teams and aligning technical roadmaps.
 - **Stakeholder Engagement:** Through collaboration with data product managers and analysts, I gained insights into strategic goals, and pain points, establishing an incrementally deliverable platform roadmap.
 - **Unified Data Model:** Created a unified data model accommodating multiple datasets.
-Strategic Refinement: To expedite the development of the data model and data access APIs, I identified and revamped an existing area of the system.
 - **Data Quality Infrastructure:** I introduced a low-code testing infrastructure, bolstering data test creation and ensuring effective reporting.
 - **Transform Layer Efficiency:** Defined reusable components within the transform layer, eliminating redundancy in transform code, and enabling streamlined additions of new datasets.
+- **Strategic Reuse:** To expedite the development of the data model and data access APIs, I identified and revamped an existing area of the system.
+- **Buy Over Build Cost Effectiveness:** Led removal of a custom-built data capture tool for an open-source alternative, reducing engineering cost and maintenance.
 - **Team Growth:** I built a platform team from the ground up, coaching a senior engineer to a technical lead position and growing an engineer to a senior engineer.
 
 This example encapsulates my approach and my commitment to engineering impactful solutions.
