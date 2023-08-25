@@ -12,7 +12,7 @@ comments: true
 **Warning:** I do not necessarily advocate this approach unless accompanied by appropriate quality testing and risk analysis. LLM performance will improve over time, but there is always a chance of non-deterministic behaviour - that's inherent in their design. An optimised prompt could work 95% of the time and then randomly throw out garbage despite heavy prompt engineering.
 
 ## Intro
-In the following post, I explore the opportunity to do no-code conversions and basic transforms on data with the gpt-3.5-turbo LLM.
+In the following post, I explore the opportunity to do no-code conversions and basic transforms on data with the gpt-3.5-turbo LLM. I'll take some data in JSON form and convert it to CSV, and translate some the data along the way to something more useful - all via an LLM prompt.
 
 My overall conclusion from this experiment: currently, I would prefer to use prompt-generated code that can be proven to be deterministic and then use that code for transforms. See my [previous article](https://www.spiritedtechie.com/blog/2023-08-22-data-transforms-code-gen-with-llms/).
 
