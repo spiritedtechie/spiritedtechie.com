@@ -11,7 +11,7 @@ comments: true
 ---
 As data engineers or analysts, we often receive unsuitable data formats. This article explores transforming data from the Met Office API using a Chat LLM Model (gpt-3.5-turbo) as a copilot. 
 
-To be clear, I am not going full-blown no-code with this - it still involves generated code. In a further post, I will experiment with LLM's ability to transform data without code.
+To be clear, I am not going full-blown no-code with this - it still involves generated code. In a [later post](https://www.spiritedtechie.com/blog/2023-08-25-data-transform-with-an-llm/), I will experiment with LLM's ability to transform data without code.
 
 # Raw data
 
