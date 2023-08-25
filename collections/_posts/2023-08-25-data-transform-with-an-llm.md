@@ -12,12 +12,12 @@ comments: true
 **Warning:** I do not necessarily advocate this approach unless accompanied by appropriate quality testing and risk analysis. LLM performance will improve over time, but there is always a chance of non-deterministic behaviour - that's inherent in their design. An optimised prompt could work 95% of the time and then randomly throw out garbage despite heavy prompt engineering.
 
 ## Intro
-In the following post, I explore the opportunity to do no-code conversions and basic transforms on data with the gpt-3.5-turbo LLM. I'll take some data in JSON form and convert it to CSV, and translate some of the data along the way to something more useful - all via an LLM prompt.
+In the following post, I explore the possibility to do no-code conversions and basic transforms on data with the gpt-3.5-turbo LLM. I'll take some data in JSON form and convert it to CSV, and translate some of the data along the way to something more useful - all via an LLM prompt.
 
-My overall conclusion from this experiment: currently, I would prefer to use prompt-generated code that can be proven to be deterministic and then use that code for transforms. See my [previous article](https://www.spiritedtechie.com/blog/2023-08-22-data-transforms-code-gen-with-llms/).
+My overall conclusion from this experiment: right now, I would still prefer to use prompt-generated, deterministic code for transforms. See my [previous article](https://www.spiritedtechie.com/blog/2023-08-22-data-transforms-code-gen-with-llms/).
 
 ## Source code
-Can be found here - it's pretty small.
+Source code for the experiment can be found here - it's pretty small.
 
 [Github](https://github.com/spiritedtechie/weather-sage/tree/main/api/experiments){:target="_blank"}
 
@@ -25,7 +25,7 @@ Can be found here - it's pretty small.
 TLDR: The transform to CSV worked! I needed a prompt with one-shot examples to guide the LLM in places.
 
 ### Pass 1:
-Dump a full version of the JSON in the prompt context. It looked like [this](https://github.com/spiritedtechie/weather-sage/blob/main/api/data/met_office/sample_forecast_data.json){:target="_blank"} - you can see it has many days of data. 
+I dumped a full version of the JSON in the prompt context. It looked like [this](https://github.com/spiritedtechie/weather-sage/blob/main/api/data/met_office/sample_forecast_data.json){:target="_blank"} - you can see it has many days of data. 
 
 However, there is an immediate problem: many rows were missing along with columns - this was due to token limitations (4,096 tokens for gpt-3.5-turbo). I suspect gpt-3.5 returns its best effort under these circumstances.
 
@@ -50,7 +50,7 @@ Day,Feels Like Temperature (C),Wind Gust (mph),Screen Relative Humidity (%),Temp
 {% endhighlight %}
 
 ### Pass 2:
-To solve the previous problem, reduce the JSON to only a single day's data. The rows were all there, but some columns were still missing.
+To solve the previous problem, I reduced the JSON to only a single day's data. The rows were all there, but some columns were still missing.
 
 [Here](https://github.com/spiritedtechie/weather-sage/blob/main/api/experiments/sample_forecast_data_slim.json){:target="_blank"} is the slimmer JSON used.
 
@@ -165,18 +165,18 @@ Feels,Bend,Creep,Definition,Each,Finder,Grip,Rating,Indicator,Jump,DateTime
 
 
 ## Non-determinism
-The more you prompt an LLM, the more deterministic the results. The problem is that you never really know how deterministic it is - i.e. the probability. This works for many use cases where the results can be creative.
+The more you prompt an LLM, the more deterministic the results. The problem is that you never really know how deterministic it is - i.e. the probability. This works for many use cases where the results can be 'creative'.
 
 LLM usage needs a high amount of critical thinking. Much of the cool stuff you see promoted works because it applies LLMs over publicly documented domains with well-known language and concepts. LLMs are trained on a vast corpus of this knowledge. And for many use cases, this is great - it will drive automation and productivity with low effort. 
 
 A public LLM could perform less well for domain-specific things where language is more customised and contextualised. Is a __dog__ an animal or a brand of beer? - If a non-contextualised LLM incorrectly thinks it's an animal, imagine what kind of response it could give. It may do well, it may not.
 
-With context lengths growing, the contextualisation can be done at runtime (via the prompt) to a limit. For large domains, with lots of domain-specific data, we are better off fine-tuning LLMs before deployment. 
+With growing context lengths limits, the contextualisation can be done at runtime (via the prompt) - this works only so far. For large domains, with lots of domain-specific data, we are better off fine-tuning LLMs before deployment. 
 
 
 ## Conclusion
 For now, though, I'll be sticking to having transforms in deterministic code. However, a friendly LLM can certainly help me write that code. I fully expect my current understanding will get blown away as LLMs evolve.
 
-It would be super cool to explore fine-tuning an LLM to domain-specific data and see what powerful features could result. I could also extend the transformation problem and use a more powerful LLM like gpt-4 to see how it performs.
+It would be super cool to explore fine-tuning an LLM to domain-specific data and see what powerful features could result. I could also extend the transformation complexity and use a more powerful LLM like gpt-4 to see how it performs.
 
-In my next project, I will create a small app that can upload some data and use an LLM to identify patterns of data quality problems in the data. Such a tool could be useful as part of a data platform to flag potential data problems for upstream action.
+In my next project, I will create a small API to identify data quality problems from uploaded data. Such a tool could be a useful addition to a no-code data platform.
