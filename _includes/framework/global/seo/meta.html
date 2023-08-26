@@ -16,11 +16,13 @@
 {% endif %}
 {% if page.meta_og_url %}
   <meta property="og:url" content="{{ page.meta_og_url }}"/>
+{% elsif page.url %}
+  <meta name="og:url" content="{{site.url}}{{ page.url }}"/>
 {% endif %}
 {% if page.meta_og_image %}
   <meta property="og:image" content="{{ page.meta_og_image }}"/>
 {% elsif page.image %}
-  <meta name="og:image" content="{{ page.image }}"/>
+  <meta name="og:image" content="{{site.url}}{{ page.image }}"/>
 {% endif %}
 {% if page.meta_og_description %}
   <meta property="og:description" content="{{ page.meta_og_description }}"/>
