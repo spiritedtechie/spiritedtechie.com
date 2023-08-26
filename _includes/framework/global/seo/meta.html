@@ -10,23 +10,24 @@
 {% if page.meta_og_image %}
   <meta property="og:image" content="{{ page.meta_og_image }}"/>
 {% elsif page.image %}
-  <meta name="og:image" content="{{site.url}}{{ page.image }}"/>
+  <meta property="og:image" content="{{site.url}}{{ page.image }}"/>
 {% endif %}
 {% if page.meta_og_url %}
   <meta property="og:url" content="{{ page.meta_og_url }}"/>
 {% elsif page.url %}
-  <meta name="og:url" content="{{site.url}}{{ page.url }}"/>
+  <meta property="og:url" content="{{site.url}}{{ page.url }}"/>
 {% endif %}
 {% if page.meta_og_title %}
   <meta property="og:title" content="{{ page.meta_og_title }}"/>
 {% elsif page.title %}
-  <meta name="og:title" content="{{ page.title }}"/>
+  <meta property="og:title" content="{{ page.title }}"/>
 {% endif %}
 {% if page.meta_og_description %}
   <meta property="og:description" content="{{ page.meta_og_description }}"/>
 {% elsif page.description %}
-  <meta name="og:description" content="{{ page.description }}"/>
+  <meta property="og:description" content="{{ page.description }}"/>
 {% endif %}
+
 {% if page.meta_twitter_card %}
   <meta name="twitter:card" content="{{ page.meta_twitter_card }}"/>
 {% endif %}
