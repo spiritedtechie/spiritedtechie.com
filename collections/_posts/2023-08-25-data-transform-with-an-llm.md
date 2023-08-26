@@ -5,19 +5,22 @@ date: 2023-08-25T10:00:00Z
 authors: ["Vijay"]
 categories: ["Data Platform", "LLM", "Data Engineering"]
 description: "Using an LLM to transform JSON to CSV"
-thumbnail: "/assets/images/gen/blog/data-transformation-with-llm.jpg"
-image: "/assets/images/gen/blog/data-transformation-with-llm.jpg"
+thumbnail: "/assets/images/gen/blog/data-transform-directly-with-an-llm.jpg"
+image: "/assets/images/gen/blog/data-transform-directly-with-an-llm.jpg"
 comments: true
 ---
-**Warning:** I do not necessarily advocate this approach unless accompanied by appropriate quality testing and risk analysis. LLM performance will improve over time, but there is always a chance of non-deterministic behaviour - that's inherent in their design. An optimised prompt could work 95% of the time and then randomly throw out garbage despite heavy prompt engineering.
+
+**Warning:** I'm not advocating the following approach unless accompanied by appropriate quality testing and risk analysis. LLM performance will improve over time, but there is always a chance of non-deterministic behaviour - that's inherent in their design. An optimised prompt could work 95% of the time and suddenly throw out garbage despite heavy prompt engineering.
+
+Modern stacks tend to perform analytic transformations in an ELT fashion - data is loaded to a warehouse, and SQL is used to transform the data into metrics and analytics views. This article considers the stage before this - data is converted, cleaned and prepared to a form that can loaded to a datastore.
 
 ## Intro
-In the following post, I explore the possibility to do no-code conversions and basic transforms on data with the gpt-3.5-turbo LLM. I'll take some data in JSON form and convert it to CSV, and translate some of the data along the way to something more useful - all via an LLM prompt.
+In the following post, I explore the possibility of doing no-code conversions and basic transforms on data with the gpt-3.5-turbo LLM. I'll take some data in JSON form, convert it to CSV, and translate the data to a more useful form - all via an LLM prompt.
 
-My overall conclusion from this experiment: right now, I would still prefer to use prompt-generated, deterministic code for transforms. See my [previous article](https://www.spiritedtechie.com/blog/2023-08-22-data-transforms-code-gen-with-llms/).
+TLDR: Overall conclusion? I would still prefer to use prompt-generated, deterministic code for transforms. See my [previous article](https://www.spiritedtechie.com/blog/2023-08-22-data-transforms-code-gen-with-llms/).
 
 ## Source code
-Source code for the experiment can be found here - it's pretty small.
+Find the source code here - it's pretty small.
 
 [Github](https://github.com/spiritedtechie/weather-sage/tree/main/api/experiments){:target="_blank"}
 
@@ -96,7 +99,7 @@ With this, we have a concise natural language prompt that could transform the we
 ## Limitations
 An immediate limitation was the context length (gpt-3.5-turbo = 4096 tokens). For lots of data, the process would be to chunk the data, process each chunk and recombine. Langchain has a pattern for this: [MapReduceChain](https://api.python.langchain.com/en/latest/chains/langchain.chains.mapreduce.MapReduceChain.html){:target="_blank"}.
 
-Here were the average per-request costs:
+Here are the average per-request costs:
 - 6 rows of forecast data
 - Tokens Used: 1046
 - Prompt Tokens: 804
@@ -107,12 +110,12 @@ Let's do some rough math to understand scale.
 
 Let's assume we continued with gpt-3.5-turbo. If there were 1000 rows of data (versus the 6 in my experiment), the costs are (1000 / 6)*$0.00169 = $0.28. 
 
-If there were 100,000 rows, this would cost $28. Things start pricing up quickly on a relatively small dataset - this is still less than 20MB in size. 
+If there were 100,000 rows, this would cost $28. Things start pricing up quickly on a relatively small dataset - this is still less than 20MB. 
 
 There are higher token context options like gpt-3.5-turbo-16k, which scale well:
 
-- 4K context	$0.0015 / 1K tokens	$0.002 / 1K tokens
-- 16K context	$0.003 / 1K tokens		$0.004 / 1K tokens
+- 4K context  $0.0015 / 1K tokens $0.002 / 1K tokens
+- 16K context $0.003 / 1K tokens    $0.004 / 1K tokens
 
 The prices would soon add up if running this on much larger event data with wide columns and over 100,000 rows generated regularly. Private LLMs become the go-to option in these cases.
 
@@ -123,7 +126,7 @@ Could the LLM be performing well because this Met Office data schema is public k
 I ran another experiment on a similarly structured dataset with an entirely made-up (meaningless) domain.
 
 ## Transform custom domain data
-[Here](https://github.com/spiritedtechie/weather-sage/blob/main/api/experiments/sample_data_madeup.json){:target="_blank"} is the customised JSON used. All the JSON field names have been changed.
+[Here](https://github.com/spiritedtechie/weather-sage/blob/main/api/experiments/sample_data_madeup.json){:target="_blank"} is the customised JSON used. I've changed all the JSON field names.
 
 The LLM needed slightly more prompt guidance on mapping field code names to meaningful column names. Also, the prompt includes mapping the 'H' field's code values to word values. Besides this, the prompt changed very little, and the LLM successfully performed the transformation.
 
@@ -169,9 +172,9 @@ The more you prompt an LLM, the more deterministic the results. The problem is t
 
 LLM usage needs a high amount of critical thinking. Much of the cool stuff you see promoted works because it applies LLMs over publicly documented domains with well-known language and concepts. LLMs are trained on a vast corpus of this knowledge. And for many use cases, this is great - it will drive automation and productivity with low effort. 
 
-A public LLM could perform less well for domain-specific things where language is more customised and contextualised. Is a __dog__ an animal or a brand of beer? - If a non-contextualised LLM incorrectly thinks it's an animal, imagine what kind of response it could give. It may do well, it may not.
+A public LLM could perform less well for domain-specific things where language is more customised and contextualised. Is a __dog__ an animal or a brand of beer? If a non-contextualised LLM incorrectly thinks it's an animal, imagine what kind of response it could give - it may do well, it may not.
 
-With growing context lengths limits, the contextualisation can be done at runtime (via the prompt) - this works only so far. For large domains, with lots of domain-specific data, we are better off fine-tuning LLMs before deployment. 
+With growing context length limits, the contextualisation can be done at runtime (via the prompt) - this only goes so far. Custom domains containing large volumes of training data are better off with fine-tuning LLMs. 
 
 
 ## Conclusion
