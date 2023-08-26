@@ -8,7 +8,6 @@ description: "Using an LLM to transform JSON to CSV"
 thumbnail: "/assets/images/gen/blog/data-transformation-with-llm.jpg"
 image: "/assets/images/gen/blog/data-transformation-with-llm.jpg"
 comments: true
-meta_og_image: "/assets/images/gen/blog/data-transformation-with-llm.jpg"
 ---
 **Warning:** I do not necessarily advocate this approach unless accompanied by appropriate quality testing and risk analysis. LLM performance will improve over time, but there is always a chance of non-deterministic behaviour - that's inherent in their design. An optimised prompt could work 95% of the time and then randomly throw out garbage despite heavy prompt engineering.
 

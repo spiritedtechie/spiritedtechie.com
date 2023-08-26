@@ -8,8 +8,6 @@ description: "Be clear about the complex, disruptive and simple work"
 thumbnail: "/assets/images/gen/blog/time-allocation-complex-innovation-disruption.jpg"
 image: "/assets/images/gen/blog/time-allocation-complex-innovation-disruption.jpg"
 comments: true
-meta_og_image: "/assets/images/gen/blog/time-allocation-complex-innovation-disruption.jpg"
-
 ---
 Here is my default motto for time spent on different kinds of work: **80% on complex and 20% on disruptive**.
 

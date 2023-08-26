@@ -8,8 +8,6 @@ description: "Manage data debt and improve data quality for more effective AI"
 thumbnail: "/assets/images/gen/blog/data-debt-data-quality.jpg"
 image: "/assets/images/gen/blog/data-debt-data-quality.jpg"
 comments: true
-meta_og_image: "/assets/images/gen/blog/data-debt-data-quality.jpg"
-
 ---
 Apologies if you know this already, but it is worth repeating: **data quality does not come for free**. As organisations use LLMs to interact with data, this realisation will become front and centre.
 

@@ -8,8 +8,6 @@ description: "Could my profile match challenges you have?"
 thumbnail: "/assets/images/gen/blog/data-platform-profile.jpg"
 image: "/assets/images/gen/blog/data-platform-profile.jpg"
 comments: true
-meta_og_image: "/assets/images/gen/blog/data-platform-profile.jpg"
-
 ---
 ## Background and Experience
 As I transition back into full-time employment, I'm taking a deep dive into contemplating where I can best apply my skills and how I can contribute effectively to organisations. There may be challenges out there that align perfectly with my expertise and problem-solving abilities.

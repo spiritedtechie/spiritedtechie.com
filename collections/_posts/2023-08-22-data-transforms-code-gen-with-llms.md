@@ -8,8 +8,6 @@ description: "Put to shame by an LLM copilot"
 thumbnail: "/assets/images/gen/blog/data-transform-with-llm.jpg"
 image: "/assets/images/gen/blog/data-transform-with-llm.jpg"
 comments: true
-meta_og_image: "/assets/images/gen/blog/data-transform-with-llm.jpg"
-
 ---
 As data engineers or analysts, we often receive unsuitable data formats. This article explores transforming data from the Met Office API using a Chat LLM Model (gpt-3.5-turbo) as a copilot. 
 
