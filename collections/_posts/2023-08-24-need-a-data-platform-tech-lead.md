@@ -24,7 +24,7 @@ I am a technical lead with a focus on constructing robust data platforms. I use 
 
 ## Technical Leadership and Management
 
-I have managed small teams in the past as a technical lead manager. However, I am not on an Engineering Management career path. Instead, I am a leadership-capable staff+ IC Software Engineer who collaborates closely with Engineering Managers or Directors to provide strategic technical leadership and mentor people in teams. This arrangement allows me to channel my efforts into fostering big-picture technical solutions and supporting team growth without veering into a management career.
+I have managed small teams in the past as a technical lead manager. However, I am not on an Engineering Management career path. Instead, I am a leadership-capable Staff+ IC Software Engineer who collaborates closely with Engineering Managers or Directors to provide strategic technical leadership and mentor people in teams. This arrangement allows me to channel my efforts into fostering big-picture technical solutions and supporting team growth without veering into a management career.
 
 ## Data Platform Engineering
 
