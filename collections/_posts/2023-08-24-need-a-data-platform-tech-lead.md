@@ -67,10 +67,10 @@ Ultimately, what sets me apart are the following attributes:
 Let me provide an example from my tenure at LandTech. Here, I spearheaded the development of an end-to-end data platform that transformed the integration of geometric datasets into data products for application use. This initiative significantly accelerated data product delivery from several weeks to days, securing considerable recurring revenue for the company and empowering experimentation. Alongside my team, the journey unfolded as follows:
 
 - **Architectural Vision:** Led efforts to shape a robust architectural vision for the data platform, harmonising the efforts of three engineering teams and aligning technical roadmaps.
-- **Stakeholder Engagement:** Through collaboration with data managers, analysts, engineers, product managers and business stakeholders, I gained insights into strategic goals and pain points, establishing an incrementally deliverable platform roadmap.
+- **Stakeholder Engagement:** Through collaboration with a wide-range of stakeholders, I gained insights into strategic goals and pain points, establishing a product-aligned platform roadmap that continuously delivered value.
 - **Orchestration Platform:** Championed and installed a data workflow orchestration tool (Prefect) that incrementally replaced all core custom-scripted workflows, reducing the cost of ownership.
 - **Unified Data Model:** Created a unified data model accommodating multiple geometric datasets (PostGIS), devising a partitioning strategy for data to support scale.
-- **Data Quality Infrastructure:** Introduced a low-code data testing infrastructure (DBT), bolstering data quality and laying the infrastructure for automated data quality reporting.
+- **Data Quality Infrastructure:** Introduced a low-code data testing infrastructure (DBT), bolstering data quality and laying the infrastructure for automated data quality.
 - **Transform Layer Efficiency:** Defined reusable components within a transform layer (DBT), eliminating redundancy in transformation logic, and enabling streamlined additions of new datasets.
 - **Data Serving:** Expedited the development of the data model and data serving layer by identifying and revamping existing system components.
 - **Buy Over Build:** Led the removal of a custom-built data generation (geometry tracing) tool for an open-source alternative (QGIS), reducing the total cost of ownership.
