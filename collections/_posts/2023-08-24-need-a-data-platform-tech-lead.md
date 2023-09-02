@@ -67,13 +67,13 @@ Ultimately, what sets me apart are the following attributes:
 Let me provide an example from my tenure at LandTech. Here, I spearheaded the development of an end-to-end data platform that transformed the integration of geometric datasets into data products for application use. This initiative significantly accelerated data product delivery from several weeks to days, securing considerable recurring revenue for the company and empowering experimentation. Alongside my team, the journey unfolded as follows:
 
 - **Architectural Vision:** Led efforts to shape a robust architectural vision for the data platform, harmonising the efforts across three engineering teams and aligning technical roadmaps.
-- **Stakeholder Engagement:** Collaborated with a wide range of stakeholders, gaining insights into strategic goals and pain points, establishing a product-aligned platform roadmap that continuously delivered value.
+- **Stakeholder Engagement:** Partnered with a wide range of stakeholders, gaining insights into strategic goals and pain points, establishing a product-aligned platform roadmap that continuously delivered value.
 - **Orchestration Platform:** Championed and installed a data workflow orchestration tool (Prefect) that incrementally replaced all core custom-scripted data flows, reducing the cost of ownership.
 - **Unified Data Model:** Created a unified data model accommodating multiple geometric datasets (PostGIS), devising a partitioning strategy for data to support scale.
 - **Data Quality Infrastructure:** Introduced a low-code data testing infrastructure (DBT), bolstering data quality and laying the infrastructure for automated data quality.
 - **Transform Layer Efficiency:** Defined reusable components within a transform layer (DBT), eliminating redundancy in transformation logic, and enabling streamlined additions of new datasets.
 - **Data Serving:** Expedited the development of the data model and data serving layer by identifying and revamping existing system components.
-- **Engaging Data Producers**: Collaborated with data producers (internal and external) to define data requirements, quality standards and integration architecture.
+- **Engaging Data Producers:** Collaborated with data producers (internal and external) to define data requirements, quality standards and integration architecture.
 - **Buy Over Build:** Led the removal of a custom-built data generation (geometry tracing) tool for an open-source alternative (QGIS), reducing the total cost of ownership.
 - **Team Growth:** Built a data engineering team from the ground up, coaching a senior engineer to a technical lead position and growing an engineer to a senior engineer. 
 - **Function Growth:** Hired engineers, peer leads and senior leadership across the department, being a key contributor in growing the data engineering function from one team to three teams.
