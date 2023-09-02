@@ -78,4 +78,6 @@ Let me provide an example from my tenure at LandTech. Here, I spearheaded the de
 - **Team Growth:** Built a data engineering team from the ground up, coaching a senior engineer to a technical lead position and growing an engineer to a senior engineer. 
 - **Function Growth:** Hired engineers, peer leads and senior leadership across the department, being a key contributor in growing the data engineering function from one team to three teams.
 
-This example encapsulates my approach and commitment to engineering impactful solutions.
+The above crystalises my approach and commitment to strategic challenges, crafting impactful solutions using technical and organisational chops. 
+
+Please reach out if you are building data products and shaping new or existing data platforms.
