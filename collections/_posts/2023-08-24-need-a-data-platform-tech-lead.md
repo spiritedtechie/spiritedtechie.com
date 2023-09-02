@@ -57,23 +57,25 @@ I identify and lead on high-leverage problems. Here's where my expertise comes i
 Ultimately, what sets me apart are the following attributes:
 
 - **Strategic Thinking:** I excel at crafting a technical vision aligned with overarching strategic business objectives, ensuring present efforts align with future goals.
-- **Iterative Delivery:** While future alignment is crucial, I'm equally skilled at challenging unnecessary complexities and charting incremental pathways to realisation.
+- **Iterative Delivery:** While future alignment is crucial, I'm equally skilled at challenging unnecessary complexities in the present and charting incremental pathways to realisation.
 - **Commercial Focus:** My commitment extends to assessing the business value of every endeavour and seeking clarity on outcomes and impact.
-- **Empathetic Leadership:** Understanding the pain points of all stakeholders is a priority. I help create solutions that prompt positive action from all involved.
-- **Cultivating Growth:** I'm dedicated to nurturing teams through mentorship and delegation, elevating the technical prowess of the collective to realise goals.
+- **Empathetic Leadership:** Understanding the goals and pain points of all stakeholders is a priority. I help align vision and objectives cross-functionally, prompting positive action from all involved.
+- **Cultivating Growth:** I'm dedicated to nurturing technical teams through mentorship and delegation, elevating technical prowess to realise goals.
 
 ## Concrete Example
 
 Let me provide an example from my tenure at LandTech. Here, I spearheaded the development of an end-to-end data platform that transformed the integration of geometric datasets into data products for application use. This initiative significantly accelerated data product delivery from several weeks to days, securing considerable recurring revenue for the company and empowering experimentation. Alongside my team, the journey unfolded as follows:
 
-- **Architectural Vision:** Led efforts to shape a robust architectural vision for the data platform, harmonising the efforts of three engineering teams and aligning technical roadmaps.
-- **Stakeholder Engagement:** Through collaboration with a wide-range of stakeholders, I gained insights into strategic goals and pain points, establishing a product-aligned platform roadmap that continuously delivered value.
-- **Orchestration Platform:** Championed and installed a data workflow orchestration tool (Prefect) that incrementally replaced all core custom-scripted workflows, reducing the cost of ownership.
+- **Architectural Vision:** Led efforts to shape a robust architectural vision for the data platform, harmonising the efforts across three engineering teams and aligning technical roadmaps.
+- **Stakeholder Engagement:** Collaborated with a wide range of stakeholders, gaining insights into strategic goals and pain points, establishing a product-aligned platform roadmap that continuously delivered value.
+- **Orchestration Platform:** Championed and installed a data workflow orchestration tool (Prefect) that incrementally replaced all core custom-scripted data flows, reducing the cost of ownership.
 - **Unified Data Model:** Created a unified data model accommodating multiple geometric datasets (PostGIS), devising a partitioning strategy for data to support scale.
 - **Data Quality Infrastructure:** Introduced a low-code data testing infrastructure (DBT), bolstering data quality and laying the infrastructure for automated data quality.
 - **Transform Layer Efficiency:** Defined reusable components within a transform layer (DBT), eliminating redundancy in transformation logic, and enabling streamlined additions of new datasets.
 - **Data Serving:** Expedited the development of the data model and data serving layer by identifying and revamping existing system components.
+- **Engaging Data Producers**: Collaborated with data producers (internal and external) to define data requirements, quality standards and integration architecture.
 - **Buy Over Build:** Led the removal of a custom-built data generation (geometry tracing) tool for an open-source alternative (QGIS), reducing the total cost of ownership.
-- **Team Growth:** Built a data platform team from the ground up, coaching a senior engineer to a technical lead position and growing an engineer to a senior engineer. Hired engineers, peer leads and senior leadership across the department.
+- **Team Growth:** Built a data engineering team from the ground up, coaching a senior engineer to a technical lead position and growing an engineer to a senior engineer. 
+- **Function Growth:** Hired engineers, peer leads and senior leadership across the department, being a key contributor in growing the data engineering function from one team to three teams.
 
 This example encapsulates my approach and commitment to engineering impactful solutions.
