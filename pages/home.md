@@ -6,16 +6,15 @@ description: "
 <p>Welcome to my blog &#128075; &#x1F44B;</p>
 <p>I write about:</p>
 <ul>
-  <li>Data platforms</li>
-  <li>Data quality</li>
-  <li>Data analytics</li>
+  <li>Software engineering</li>
+  <li>Data engineering</li>
   <li>Artificial intelligence</li>
   <li>Architecture</li>
-  <li>Teams & culture</li>
   <li>Leadership</li>
+  <li>Teams & culture</li>
 </ul>
 
-<p>I am based in the UK, West Midlands.</p>"
+<p>I am based in the West Midlands, UK.</p>"
 
 image: "/assets/images/homepage.jpg"
 
