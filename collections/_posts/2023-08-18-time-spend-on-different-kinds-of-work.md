@@ -27,7 +27,7 @@ The complex space involves continuous innovation, while the disruptive space is 
 * Understanding potential
 * Discover goals, problems & products
 * Solutions can be fringe and inventive
-* Move fast and pivot often
+* Pivot often
 * Critical thinking matters even more
 * Identify practical opportunities
 * Understand limitations
@@ -45,14 +45,12 @@ The complex space involves continuous innovation, while the disruptive space is 
 
 The percentages are a personal preference shaped by context and experience. Proportions vary for different people and organisations; nevertheless, the nature of problems changes in each space.
 
-In the past, I have seen organisations reduce all innovation or disruption to a small percentage of the time. I instead advocate for continuous innovation. Any dedicated time is reserved for game-changing disruptive projects.
-
-An example might help explain the difference. Integrating a new framework to solve an immediate problem could be considered an innovation - it is practical and implementable. Contrast this with cutting-edge research in the latest AI techniques - this is disruptive, and the challenge is to identify scalable products, solutions and practical ways forward. This is experimental to the extreme.
+An example might help explain the difference. Integrating a new framework to solve a complex problem could be considered an innovation - it is practical and implementable. Contrast this with cutting-edge research in the latest AI techniques - this is disruptive, and the challenge is to identify scalable products with practical solutions. This is experimental to the extreme.
 
 Some organisations limit innovation and/or disruption to only a fraction of the time (or remove the time altogether). Organisations could suffer consequences if their competitors do the opposite and reap the rewards.
 
-What about the opposite - 80% spent in the disruptive space, with nothing being productised and scaled. Perhaps this is necessary initially to pivot fast and stay ahead. However, eventually, a product needs to be defined, built and scaled. Constraints need to be identified for early-stage products in such a disruptive space - there will be some whether you want it or not! Constant change whilst trying to scale every opportunity is futile - data, critical thinking and strategy are required to make the right bets and move toward practicality.
+What about the opposite - 80% spent in the disruptive space, with nothing being productised and scaled? Initially, this may be necessary to pivot fast and stay ahead. Eventually, though, a product needs to be defined, built and scaled. Constraints exist for early-stage products - whether you want them or not! It's futile to try to scale every early-stage opportunity under constant change - data, critical thinking and strategy are required to make the right bets to progress toward scalability.
 
 Is it an anti-pattern to have dedicated roles or teams for disruption or innovation - would everyone else get bored and resentful quickly? Those best placed to evaluate innovations are closest to the execution and ops - their buy-in is critical. However, it does require a shift in mindset towards a more disruptive way of thinking.
 
-Would be keen to know how you make this work in your teams and organisations.
+I am keen to know how you make this work in your teams and organisations.
