@@ -24,11 +24,11 @@ I am a technology leader with a focus on constructing robust data platforms. I u
 
 ## Technical Leadership and Management
 
-Most of my experience has been managing small teams (5 to 7 people) as a hybrid Technical Lead Manager. I can fluently operate as an IC Technical Lead (with a technical system focus), working alongside Engineering Management to align technology with organisational aspects. Equally, I can serve as an Engineering Manager for a team focused more on people, delegating technical leadership to senior ICs. Regardless of the role, I like to balance my contributions to people, processes and technology rather than focusing purely on technology or people. I won't be the best coder in the team, though I have considerable product delivery, technical and architectural experience to help guide teams in the right direction for the organisation.
+Most of my experience has been managing small teams (5 to 7 people) as a hybrid Technical Lead Manager. I can fluently operate as an IC Technical Lead (with a technical system focus), working alongside Engineering Management to align technology with organisational aspects. Equally, I can serve as an Engineering Manager for a team focused on people, delegating technical leadership to senior ICs. Regardless of the role, I like to balance my contributions to people, processes and technology rather than focusing purely on either technology or people. I won't be the best coder in the team, though I have considerable product delivery, technical and architectural experience to help guide teams in the right direction for the organisation.
 
 ## Data Platform Engineering
 
-I consider data platform engineering a logical extension of data engineering. They both share similarities but diverge in objective. Data platform engineers create intuitive tooling and abstractions that efficiently facilitate the creation of data products. The essence of data platforms lies in patterns, abstraction and reuse, thus supporting scalability through breadth of applicability. As a data engineer, this is where my interest lies.
+I consider data platform engineering a logical extension of data engineering. They both share similarities but diverge in objective. Data platform engineers create intuitive tooling and abstractions that efficiently facilitate the creation of data products. The essence of data platforms lies in patterns, abstraction and reuse, thus supporting scalability through breadth of applicability. Technically, I have deep interest in this area.
 
 ## Passion for Data Platforms and Data Quality
 
@@ -47,7 +47,6 @@ I identify and lead on high-leverage problems. Here's where my expertise comes i
 - **Data Orchestration:** Configure scalable and observable orchestration systems for complex processing flows.
 - **Data Ingestion:** Integrate extraction tools to diversify available data sources. Create scalable infrastructure for ingestion of large data volumes.
 - **Data Transformation:** Create reusable transformation logic and shared models, determining optimal data structures/formats. Craft or integrate tools that empower self-serve transformations. 
-- **Data Serving** - Make data available for analytics, or external systems via APIs and reverse-ETL processes.
 - **Data Metadata** - Identify metadata (including lineage data) across the platform and integrate it into cataloguing systems, maximising observability and traceability.
 - **Semantic Layer:** Develop or integrate tools for defining business metrics from centralised data. Establish shared models for organisation-wide metric definitions.
 - **DataOps:** All this requires a mindset of automation on all parts of the platform, combining SLAs and monitoring to build towards low lead times for data product value.
