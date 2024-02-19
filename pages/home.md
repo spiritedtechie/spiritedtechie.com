@@ -11,14 +11,14 @@ description: "
   <li>Artificial intelligence</li>
   <li>Architecture</li>
   <li>Leadership</li>
-  <li>Teams & culture</li>
+  <li>Effective teams</li>
 </ul>
 
 <p>I am based in the West Midlands, UK.</p>"
 
-image: "/assets/images/homepage.jpg"
+image: "/assets/images/homepage.png"
 
-meta_description: "Professional Blog of Vijay Patel (Spirited Techie) - Technical Leadership, Data Engineering, Data Platforms, Tech & Data Architecture, Effective Teams"
+meta_description: "Professional Blog of Vijay Patel (Spirited Techie) - Technical Leadership, Software & Data Engineering, Architecture, Effective Teams"
 meta_title: Spirited Techie Writes
 
 posts:
