@@ -181,5 +181,3 @@ With growing context length limits, the contextualisation can be done at runtime
 For now, though, I'll be sticking to having transforms in deterministic code. However, a friendly LLM can certainly help me write that code. I fully expect my current understanding will get blown away as LLMs evolve.
 
 It would be super cool to explore fine-tuning an LLM to domain-specific data and see what powerful features could result. I could also extend the transformation complexity and use a more powerful LLM like gpt-4 to see how it performs.
-
-In my next project, I will create a small API to identify data quality problems from uploaded data. Such a tool could be a useful addition to a no-code data platform.
