@@ -1,16 +1,15 @@
 ---
 layout: home
 permalink: "/"
-title: "Hello! I'm <a href='/contact'>Vijay</a>, a technical lead"
+title: "Hello! I'm <a href='/contact'>Vijay</a>, a technical leader"
 description: "
 <p>Welcome to my blog &#128075; &#x1F44B;</p>
 <p>I write about:</p>
 <ul>
+  <li>Technical leadership</li>
   <li>Software engineering</li>
-  <li>Data engineering</li>
-  <li>Artificial intelligence</li>
+  <li>Backend and data engineering</li>
   <li>Architecture</li>
-  <li>Leadership</li>
   <li>Effective teams</li>
 </ul>
 

@@ -7,77 +7,47 @@ permalink: "/about/"
 description: ""
 image: ""
 ---
-Hello there! My name is Vijay, and I'm a technical lead and experienced engineer with over 15 years of experience. I have gained extensive skills and expertise in various industries and technology areas. 
+Hey, I'm Vijay 👨‍💻 – a seasoned senior software engineer and outcome-driven technical lead with a knack for steering engineering towards substantial impact.
 
-## Industries
-I have experience across the following industry sectors:
+**🚀 Experience Highlights:**
 
-* Prop-tech
-* Ed-tech
-* Ad-tech
-* Banking
-* Energy
-* Defence
+I've crafted impactful B2B and B2C SaaS products spanning diverse industries – prop-tech, ed-tech, ad-tech, banking, energy, and defence.
 
-Within these, I've built SaaS and non-SaaS digital products for B2B and B2C, including mobile, web & data products.
+Spearheaded the development of data-intensive applications for renowned scale-up organisations:
 
-## Roles
-I have undertaken these roles:
+- UK energy provisioning system at First Utility/Shell Energy.
+- Global ad-tech platform at Unruly - demand side & data analytics.
+- Global geospatial site-sourcing data platform at LandTech.
 
-* **Software engineer** - designed, built & delivered software systems
-* **Technical leader** - shaped technical vision, strategy & architecture
-* **Engineering leader** - built high-performing teams that execute effectively 
+**💻 Technical Mastery:**
 
-## Interest area
-Driving data forward, applying extensive software engineering experience to the data engineering space. Furthering automation in data platforms to accelerate the creation of data products. Enhancing data quality to build reliability and trust in data.
+I am a full-stack engineer developing with both Python and Typescript stacks. I have extensively used cloud infrastructure, specifically AWS and Google Cloud.
 
-## Values
-My work ethic stems from values: impact, commitment, strategic focus, adaptability, systems thinking and collaboration.
+I specialise in backend engineering, with a knack for designing and building scalable data systems - from services, APIs, and event-driven systems to data models, machine learning models, storage systems, and data processing pipelines.
 
-## Skills
-As a technical lead, I have developed a broad set of skills. I apply these according to the make-up and context of organisations and teams:
+**✨ What Sets Me Apart?**
 
-↗ **People & team**
-* Stakeholder engagement
-* Cross-team alignment
-* Team structure
-* Role design
-* Hiring & onboarding
-* Career matrices
-* Career coaching & training
-* Mentoring
-* Performance management
-* Succession planning
-* Team health
+🔎 Want evidence? See my LinkedIn recommendations.🧾
 
-↗ **Delivery**
-* Lean mindset
-* Continuous delivery & value streams
-* Delivery planning & roadmaps
-* Prioritisation
-* Risk management
-* Technical debt management
+▸ Efficiency Guru:
+- Championing simplicity and lean processes in software development.
+- Minimising solution complexity, emphasising evolvability.
+- Driving automation, eliminating repetitive and low-value tasks.
 
-↗ **Process**
-* Guidelines
-* Facilitation
-* Effective collaboration
-* Documentation
-* Reporting
-* Metrics (e.g. DORA)
-* DevOps processes
-* TOIL reduction
+▸ Strategic Visionary:
+- An impact-driven approach aligning engineering with organisational mission and goals.
+- Generating significant short and long-term value for the business.
+- Mastering the delicate balance between immediate and future concerns.
 
-↗ **Technical**
-* Tech vision & alignment
-* Tech assessment & audit
-* Technical debt identification
-* Evolutionary architecture
-* Build vs. buy decisions
-* Tech risk management
-* Domain-driven design
-* System design
-* Quality strategies
-* Performance optimisation
+▸ Quality Crusader:
+- Expert in delivering software product quality when and where it matters.
+- Contextual decision-maker, recognising when an area is 'good enough.'
+- Well-versed practitioner of continuous improvement guided by feedback.
 
-Please connect if you share interests or think I could help you.
+▸ Mentor Extraordinaire:
+- Supporting growth through sponsorship and mentoring (feedback, pairing, knowledge sharing).
+- Leading by example to build trust and influence culture.
+
+Eager to contribute my expertise to your next project's success. If you are part of a mission-driven startup or scale-up working to develop sustainable and scalable products, please reach out. Open to job opportunities, let's connect and explore how I can bring my passion & skills to your tech initiatives. 🚀✨
+
+Key tools: Python, Typescript, SQL, HTML/CSS, React.js, Vue.js, Next.js, GraphQL, REST, Flask, Django, Prefect, Pandas, Postgres, PostGIS, Elasticsearch, Kafka, DynamoDB, Redis, MongoDB, BigQuery, Redshift, Docker, Linux, AWS, Google Cloud, GitHub, Terraform, CDK
